@@ -1,0 +1,13 @@
+.toggle-button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 17px;
+}
+
+@media (width >= 640px) {
+  .toggle-button-group {
+    gap: 8px;
+    margin-top: 20px;
+  }
+}

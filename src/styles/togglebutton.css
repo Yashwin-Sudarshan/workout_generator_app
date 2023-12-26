@@ -1,0 +1,29 @@
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-button {
+  display: inline-block;
+  background-color: white;
+  border: 1px solid #1d2d44;
+  border-radius: 5px;
+  padding: 0.6em 1.25em;
+  font-size: 13.19px;
+  font-weight: bold;
+  color: #25313c;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-checkbox:checked + .toggle-button,
+.toggle-checkbox:hover + .toggle-button {
+  background-color: #1d2d44;
+  border: 1px solid #1d2d44;
+  color: white;
+}
+
+@media (width >= 640px) {
+  .toggle-button {
+    font-size: 16px;
+  }
+}

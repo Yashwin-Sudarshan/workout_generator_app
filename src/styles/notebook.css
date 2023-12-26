@@ -1,0 +1,165 @@
+.notebook {
+  background-color: #f0ebd8;
+  border-radius: 8px;
+  min-width: 260px;
+}
+
+.options {
+  border-bottom: 1px solid #c6c5ba;
+  padding-right: 20px;
+}
+
+.options-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.options h2,
+.workout h2 {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+
+.options h3 {
+  text-align: left;
+}
+
+.form-toggle-section {
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.workout-content {
+  position: relative;
+  margin-top: 20px;
+  width: 81%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workout-content h3 {
+  position: absolute;
+  line-height: 174.1%;
+  text-align: left;
+}
+
+.notebook-line {
+  border: 1px dashed #bbc0bb;
+  margin-bottom: 30px;
+}
+
+.submit-btn-wrapper {
+  margin-left: 20px;
+  margin-top: 33px;
+  margin-bottom: 40px;
+}
+
+.submit-btn {
+  background-color: #0d1321;
+  color: white;
+  height: 46px;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  border-radius: 3.3px;
+  transition: background-color 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #17202a;
+}
+
+@media (width >= 640px) {
+  .notebook {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+  }
+
+  .options h2,
+  .workout h2 {
+    padding-top: 40px;
+  }
+
+  .workout h2 {
+    padding-left: 40px;
+  }
+
+  .options h2 {
+    padding-left: 60px;
+  }
+
+  .options,
+  .workout {
+    width: 50%;
+  }
+
+  .options {
+    border-right: 1px solid #c6c5ba;
+    border-bottom: none;
+    padding-right: 40px;
+  }
+
+  .workout-content h3 {
+    line-height: 176.1%;
+  }
+
+  .notebook-line {
+    margin-bottom: 40px;
+  }
+
+  .form-toggle-section {
+    margin-left: 60px;
+    margin-top: 30px;
+  }
+
+  .submit-btn-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-left: 60px;
+    margin-top: 40px;
+  }
+
+  .submit-btn {
+    height: 56px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 165px;
+  }
+}
+
+@media (640px <= width <= 1024px) {
+  .workout h2 {
+    padding-left: 30px;
+  }
+
+  .options h2 {
+    padding-left: 40px;
+  }
+
+  .options {
+    padding-right: 30px;
+  }
+
+  .form-toggle-section {
+    margin-left: 40px;
+  }
+
+  .submit-btn-wrapper {
+    margin-left: 40px;
+    margin-top: 33px;
+  }
+
+  .submit-btn {
+    height: 46px;
+    font-size: 13px;
+    border-radius: 3.3px;
+    width: 136px;
+  }
+}

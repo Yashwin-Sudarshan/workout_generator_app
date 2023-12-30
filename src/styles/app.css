@@ -1,0 +1,31 @@
+.container {
+  margin: 20px 20px 40px;
+  text-align: center;
+}
+
+@media (640px <= width <= 1041px) {
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media (width >= 1041px) {
+  .container {
+    width: 961px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.logo {
+  margin: 0;
+}
+
+.logo span:nth-child(1) {
+  color: #748cab;
+}
+
+.logo span:nth-child(2) {
+  color: #f0ebd8;
+}
